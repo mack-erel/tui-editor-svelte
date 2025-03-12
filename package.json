@@ -1,19 +1,46 @@
 {
-  "name": "@tui-editor-svelte/root",
-  "private": true,
-  "main": "index.js",
+  "name": "tui-editor-svelte",
+  "svelte": "Editor.svelte",
+  "main": "Editor.svelte",
   "scripts": {
-    "kit:dev": "pnpm recursive run dev --filter @tui-editor-svelte/example-kit",
-    "csr:dev": "pnpm recursive run dev --filter @tui-editor-svelte/example-csr",
-    "publish": "pnpm recursive run pub --filter tui-editor-svelte"
+    "pub": "npm publish"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/composite/tui-editor-svelte.git"
+  "devDependencies": {
   },
-  "author": "Composite <ukjinplant@msn.com>",
+  "peerDependencies": {
+    "@toast-ui/editor": "^2.0.0"
+  },
+  "dependencies": {
+    "@toast-ui/editor": "^2.0.0"
+  },
+  "keywords": [
+    "svelte",
+    "component",
+    "library",
+    "tui",
+    "editor"
+  ],
+  "files": [
+    "defaults.js",
+    "Editor.svelte",
+    "Viewer.svelte",
+    "index.d.ts",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "version": "0.0.1",
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 2,
+    "useTabs": false
+  },
+  "homepage": "https://ui.toast.com",
   "bugs": {
     "url": "https://github.com/composite/tui-editor-svelte/issues"
   },
-  "homepage": "https://github.com/composite/tui-editor-svelte#readme"
+  "author": "Composite <ukjinplant@msn.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/composite/tui-editor-svelte.git"
+  }
 }
