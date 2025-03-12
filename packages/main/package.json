@@ -3,19 +3,11 @@
   "svelte": "Editor.svelte",
   "main": "Editor.svelte",
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "pub": "npm publish"
   },
   "devDependencies": {
-    "eslint": "^7.23.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-svelte3": "^3.1.2",
-    "prettier": "^2.2.1",
-    "prettier-plugin-svelte": "^2.2.0",
-    "svelte": "^3.0.0"
   },
   "peerDependencies": {
-    "svelte": "^3.0.0",
     "@toast-ui/editor": "^2.0.0"
   },
   "dependencies": {
